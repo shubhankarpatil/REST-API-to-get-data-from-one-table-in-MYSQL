@@ -35,19 +35,4 @@ public class MainController {
 	public @ResponseBody Student findByMobile(@PathVariable(name = "Mobile_Number") String Mobile_Number) {
 		return studentService.findByMobile(Mobile_Number);
 	}
-	
-	/*@PostMapping(path="/update/{id}")
-	public @ResponseBody String updateStudent(@PathVariable(name = "id") Integer id, @RequestBody Student student) {
-		return studentService.updateStudent(id,student);
-	}*/
-	
-	/*@PostMapping(path="/add")
-	public @ResponseBody String addNewStudent (@RequestBody Student s) {
-			return studentService.addStudent(s);
-	}*/
-	
-	/*@GetMapping(path="/ex/{rollno}")
-	public @ResponseBody Optional<Student> exById(@PathVariable(name = "rollno") Integer rollno) {
-		return studentService.exById(rollno);
-	}*/
 }	
