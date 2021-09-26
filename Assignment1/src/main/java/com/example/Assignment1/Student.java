@@ -83,10 +83,4 @@ public class Student {
 		public void setUniversity(String college_name) {
 			College_Name = college_name;
 		}
-
-		/*@Override
-		public String toString() {
-			return "Student [Rollno=" + Rollno + ", Student_Name=" + Student_Name + ", Age=" + Age + ", Address="
-					+ Address + ", Mobile=" + Mobile_Number + ", University=" + College_Name + "]";
-		}*/
 }	
