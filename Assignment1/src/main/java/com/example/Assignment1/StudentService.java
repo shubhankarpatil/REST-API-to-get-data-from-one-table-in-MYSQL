@@ -27,30 +27,5 @@ public class StudentService {
 	public Student findByMobile(String Mobile_Number) {
 		return srepo.findByMobile(Mobile_Number);
 	}
-	
-	/*public String updateStudent(Integer Id, Student student) {
-		try {
-			student.setId(Id);
-			srepo.save(student);
-			return "Updated";
-		}catch(Exception e) {
-			return "Failed";
-		}
-	}*/
-	
-	/*public Optional<Student> exById(Integer rollno) {
-		return srepo.exById(rollno);
-	}*/
-	
-	/*public String addStudent(Student s) {
-	
-	try {
-		srepo.save(s);
-		return "saved";
-	} catch(Exception e) {
-		return "failed";
-	}
-}*/
-
 }
 
