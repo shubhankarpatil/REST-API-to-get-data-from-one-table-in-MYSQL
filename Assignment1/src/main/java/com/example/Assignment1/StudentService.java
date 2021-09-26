@@ -23,7 +23,6 @@ public class StudentService {
 		return srepo.findByName(Student_Name);
 	}
 	
-	
 	public Student findByMobile(String Mobile_Number) {
 		return srepo.findByMobile(Mobile_Number);
 	}
